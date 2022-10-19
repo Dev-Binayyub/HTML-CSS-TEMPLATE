@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**styling the dropdown menu**/
+.dropbtn {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    text-align: left;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: silver;}
+
+/**styling the row1 divs(contents)**/
+
+.rows1{
+    background: silver;
+    width: 100%;
+    height: 180vh;
+    padding-left: 160px;
+}
+
+#firstdiv{
+    position: absolute;
+    background-image: url();
+    width: 837px;
+    height: 590px;
+    margin-left: 90px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+#seconddiv{
+    position: absolute;
+    width: 700px;
+    height: 360px;
+    background: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: 490px;
+    z-index: 2;
+}
+
+#seconddiv h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 50px;
+    line-height: 1.3;
+}
+
+#thirddiv{
+    position: absolute;
+    width: 600px;
+    height: 140vh;
+    background: rgb(236, 20, 74);
+    margin-left: 250px;
+    
+}
+
+/**styling the row2 divs (contents)**/
+
+.row2{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 940px;
+    margin-left: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
+    background: white;
+    width: 77%;
+}
+
+ .row2 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#values{
+    margin-left: 10px;
+}
+
+.line{
+    width: 170px;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: rgb(255, 0, 0);
+}
+
+.rows2{
+    background: white;
+    width: 70%;
+    height: 100vh;
+    margin-left: 200px;
+}
+
+.leftside{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 400px;
+    height:300px;
+    float: left;
+    margin-left: 30px;
+}
+
+.leftside h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    text-transform:capitalize;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.leftside p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.leftside h4{
+    font-size: 18px;
+    margin-top: 23px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightside{
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 25px;
+    grid-gap: 0.5px;
+}
+
+.contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(236, 20, 74);
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#icon{
+}
+
+/**styling the rows3 divs (contents)**/
+
+.rows3{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background: rgb(236, 20, 74);
+}
+
+#white{
+    position: absolute;
+    width: 820px;
+    height: 600px;
+    background: white;
+    margin-left: 450px;
+    margin-top: 110px;
+}
+
+#gray{
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 520px;
+    background: rgb(255, 255, 255);
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+#blue{
+    position: absolute;
+    top: 0;
+    width: 550px;
+    height: 500px;
+    background: rgb(89, 0, 255);
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#white h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#white p{
+    margin-top: 40px;
+    margin-left: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+}
+
+#white h3{
+    margin-left: 320px;
+    margin-top: 50px;
+    background: rgb(236, 20, 74);
+    color: rgb(161, 132, 132);
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/**styling the rows4 divs (contents)**/
+
+.rows4{
+    background-image: url("images/beauty.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 90vh;
+    color: rgb(255, 255, 255);
+}
+
+.rows4 h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 90px;
+    padding-top: 20px;
+    font-size: medium;
+    font-size: 50px;
+}
+
+.rows4 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+#quotes{
+    align-content: center;
+}
+
+#quote{
+    width: 100px;
+    height: 100px;
+    color:red;
+    margin-left: 640px;
+    padding-top: 40px;
+}
+
+/**styling the rows5 divs (contents)**/
+
+.rows5{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background: rgb(255, 255, 255);
+}
+
+.rows5 #white{
+    color: white;
+    background: rgb(236, 20, 74);;
+}
+
+.rows5 #readmore{
+    background: rgb(15, 15, 15);
+}
+
+.rows5 a{
+    text-decoration: none;
+}
+
+#readmore:hover{
+    background-color: silver;
+    color: black;
+}
+
+/**styling the rows 6 divs (contents)**/
+
+.rows6{
+    background-image: url("images/divs.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 55vh;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/**
+.num{
+    width: 350px;
+    height: 260px;
+    background: white;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 50px;
+}**/
+
+/**styling the rows7 div support (contents)**/
+
+.rows7{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.support1{
+    float: left;
+    margin-left: 120px;
+}
+.support1 h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.support1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.support1 ul{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.support1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 2, 86);
+    width: 300px;
+    height: 5vh;
+    padding-top: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.support1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#booking:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.support2 p{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/**Styling the contact-us divs (contents(rows8))**/
+
+.rows8{
+    position: absolute;
+    background-image: url(images/pexels2.jpeg);
+    margin-top: 682px;
+    width: 100%;
+    height: 100vh;
+}
+
+.layer1{
+    position: absolute;
+    width: 60%;
+    height: 87vh;
+    margin-left: 265px;
+    margin-top: 75px;
+    background: rgb(255, 255, 255);
+    border-radius: 60px;
+    z-index: 1;
+}
+
+#registration{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 0;
+}
+
+.inputform h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+form{
+    margin-left: 30px;
+}
+
+#address input{
+    width: 330px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(238, 238, 238);
+}
+
+#naming input{
+    width: 330px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(238, 238, 238);
+}
+
+#Phone-call input{
+    width: 330px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(238, 238, 238);
+}
+
+#dates input{
+    width: 330px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(238, 238, 238);
+}
+
+#messages p{
+    margin-left: 30px;
+}
+
+#messages input{
+    margin-left: 30px;
+    width: 720px;
+    height: 150px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(238, 238, 238);
+}
+
+.inputform button{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 720px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: rgb(231, 13, 68);
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.submit-btn:hover{
+    background-color: rgb(192, 52, 52);
+    color: rgb(255, 255, 255);
+}
+
+.layer2{
+    position: absolute;
+    width: 70%;
+    height: 37vh;
+    margin-left: 200px;
+    margin-top: 240px;
+    background: rgb(236, 20, 74);
+}
+
+/**Styling the footer**/
+
+.rows9{
+    margin-top: 672px;
+
+}
+
+.footer{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serifS;
+    height: 30vh;
+}
+
+.footer h2{
+    padding-top: 60px;
+    padding-left: 115px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.topnav{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 210px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav span{
+    margin-right: 20px;
+}
+
+#facebook{
+    padding-left: 200px;
+    padding-right: 10px;
+}
+
+#twitter{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#apple{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#amazon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#users{
+    padding-left: 10px;
+    padding-right: 10px;
+}
